@@ -1,0 +1,29 @@
+nav{
+    background-color: blue;
+}
+a{
+    color: white;
+    text-decoration: none ;/*quitar el subrayado*/
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+   padding: 25px; ; 
+}
+
+a:hover{
+   background-color: white;
+   color: black;
+}
+ li:hover{
+    background-color: white;
+    color: black;
+ }
+ li:hover a{
+    color: black;
+ }
